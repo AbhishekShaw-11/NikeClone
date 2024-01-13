@@ -1,0 +1,19 @@
+.Banner1{
+    background-image: url("Retro.png");
+    
+    height: 44rem;
+  width: 50%;
+  margin: 2rem;
+}
+.Banner2{
+    background-image: url("Skip.png");
+    
+    height: 44rem;
+    width: 50%;
+    margin: 2rem;
+}
+.Banner{
+    display: flex;
+     justify-content: space-between;
+     width: 100%;
+}

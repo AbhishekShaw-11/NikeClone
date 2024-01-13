@@ -2,24 +2,31 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaRupeeSign } from "react-icons/fa";
+
 
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 5000,
+      cssEase: "linear",
+      
+   
     };
 
     return (
       <div className="mt-4">
-        <div className="">
+        <div className="flex  justify-between text-lg font-medium capitalize">
           <div className="">
-            <h1 className="">New Year New Arrivals</h1>
+            <h1 className="px-4 text-lg font-medium capitalize">New Year New Arrivals</h1>
           </div>
           <div className="">
-            <h1 className="">Shop</h1>
+            <h1 className=" px-4 text-lg font-medium capitalize">Shop</h1>
           </div>
         </div>
         <Slider
