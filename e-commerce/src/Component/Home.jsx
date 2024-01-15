@@ -6,6 +6,8 @@ import SimpleSlider from "./Carousel";
 import "./Css/Banner.css";
 import Carousel2 from "./Carousel2";
 import Add1 from "./Add1.mp4";
+import Carousel3 from "./Carousel3";
+import Carousel4 from "./Carousel4";
 
 const Home = () => {
   return (
@@ -106,14 +108,20 @@ const Home = () => {
   <p className="mt-3  font-medium mb-3">
   Nike Dynamo 2 EasyOn
 </p>
-        <h1 className=" uppercase text-6xl font-black ">nike g.t cut 3</h1>
+        <h1 className=" uppercase text-6xl font-black ">nike easyon and go</h1>
         <p className="mt-3  font-medium mb-3">
-          Built for players who are constantly cutting, stopping on a dime and
-          changing the game.
+          Nike EasyOn-Designed to put on and get going.
         </p>
         <button className=" rounded-full bg-black text-teal-50  w-20 h-8 mt-4  hover:bg-slate-600 font-medium ">
-          Explore
+          Shop
         </button>
+      </div>
+
+      <div>
+      <Carousel3/>
+      </div>
+      <div>
+      <Carousel4/>
       </div>
     </React.Fragment>
   );
